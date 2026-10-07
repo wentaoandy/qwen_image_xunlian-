@@ -1,0 +1,1 @@
+{"condition_image":"data/examples/wrong.png","target_image":"data/examples/correct.png","prompt":"Repair the product geometry. Keep unchanged regions stable."}
