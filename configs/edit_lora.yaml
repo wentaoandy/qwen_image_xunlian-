@@ -1,0 +1,16 @@
+model:
+  path: "Z:/download/weights/Qwen-Image-2.1"
+  dtype: "bf16"
+
+train:
+  manifest: "data/example_manifest.jsonl"
+  output_dir: "outputs/edit_lora"
+  resolution: 1024
+  batch_size: 1
+  learning_rate: 1.0e-4
+  max_steps: 1000
+  gradient_accumulation_steps: 1
+  seed: 42
+  lora_rank: 16
+  lora_alpha: 16
+  num_workers: 0
