@@ -1,0 +1,10 @@
+torch>=2.4
+transformers>=5.17
+accelerate
+peft>=0.14
+pillow
+numpy
+pyyaml
+safetensors
+# Qwen-Image-2.1 support can require the current Diffusers source version.
+# pip install git+https://github.com/huggingface/diffusers
