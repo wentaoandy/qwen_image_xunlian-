@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qwen-image-21-learning"
+version = "0.1.0"
+description = "Modular learning code for Qwen-Image-2.1 image editing and 3D condition research"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
